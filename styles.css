@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(31, 29, 29);
+    font: calc(0.40rem + 1vmin) monospace;
+}
+
+.nav {
+    color: rgb(221, 221, 221);
+    font-size: 25px;
+    margin: 0px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    margin: 0px;
+    margin-left: 300px;
+}
+
+.description {
+    color: rgb(221, 221, 221);
+    font-size: 25px;
+    margin: 0px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.box-section-title {
+  margin-top: 75px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+    padding-left: 0px;
+    margin-left: 300px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.button-box {
+    border: 3px solid rgb(219, 219, 219);
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+}
+
+.button-text {
+    margin: 10px;
+    justify-self: center;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    border: 3px solid rgb(219, 219, 219);
+    border-radius: 20px;
+    height: 200px;
+}
+
+.box-title {
+    margin: 30px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.box-description {
+    margin: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(224, 224, 224);
+}
+
+.box:hover {
+  background-color: rgba(118, 119, 118, 0.1);
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+.button-box:hover {
+  background-color: rgba(118, 119, 118, 0.1);
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+    .grid-container ul {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
